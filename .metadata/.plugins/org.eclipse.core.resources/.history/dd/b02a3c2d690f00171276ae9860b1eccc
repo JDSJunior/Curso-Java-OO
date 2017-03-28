@@ -1,0 +1,8 @@
+package aula16;
+
+public class MyClass {
+	
+	void imprime(){
+		System.out.println(Aula.nome+" "+ new Aula().sobrenome);
+	}
+}

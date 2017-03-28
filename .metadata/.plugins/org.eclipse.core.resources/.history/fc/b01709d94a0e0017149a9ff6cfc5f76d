@@ -1,0 +1,8 @@
+package Aula15;
+
+public class PessoaFisica extends Pessoa{
+	public PessoaFisica(){
+		super();
+		System.out.println("PessoaFisica");
+	}
+}

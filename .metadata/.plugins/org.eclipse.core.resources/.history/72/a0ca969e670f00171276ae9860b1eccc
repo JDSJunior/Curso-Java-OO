@@ -1,0 +1,23 @@
+package aula16;
+
+public class Aula {
+	//atributo estatico
+	static String nome = "Ana";
+	//atributo de estancia
+	String sobrenome = "Monteiro";
+	
+	void imprime(){
+		System.out.println(nome+ " " +sobrenome);
+	}
+	
+	public static void main(String[] args) {
+		
+		//dentro de um metodo de estatico so temos acessos
+		//a membros estaticos os de instancia é nescessario instacia-los
+		//em uma variavel
+		//System.out.println(nome +" "+ sobrenome);
+		
+		new Aula.imprime();
+		
+	}
+}

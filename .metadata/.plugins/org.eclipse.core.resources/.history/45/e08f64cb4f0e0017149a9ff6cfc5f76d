@@ -1,0 +1,8 @@
+package Aula15;
+
+public class B extends A{
+	
+	public B(){
+		super();
+	}
+}

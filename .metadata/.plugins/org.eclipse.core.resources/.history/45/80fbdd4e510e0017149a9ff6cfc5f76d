@@ -1,0 +1,16 @@
+package Aula15;
+
+public class B {
+
+	public B(){
+		Go();
+	}
+	
+	public B(String b){
+		this();
+	}
+	
+	public void Go(){
+		new B("b");
+	}
+}

@@ -1,0 +1,8 @@
+package Aula15;
+
+public class Pessoa {
+	public Pessoa(){
+		super();
+		System.out.println("Pessoa");
+	}
+}

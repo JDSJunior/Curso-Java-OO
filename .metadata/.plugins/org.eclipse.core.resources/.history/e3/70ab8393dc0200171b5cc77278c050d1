@@ -1,0 +1,10 @@
+package Aula10;
+
+import java.time.LocalDate;
+
+public class Pessoa {
+	private String nome;
+	private String sobrenome;
+	private LocalDate dataNascimento;
+	private char sexo;
+}

@@ -1,0 +1,12 @@
+package Aula15;
+
+public class A {
+
+		public A(){
+			
+		}
+		
+		public A(String b){
+			
+		}
+}

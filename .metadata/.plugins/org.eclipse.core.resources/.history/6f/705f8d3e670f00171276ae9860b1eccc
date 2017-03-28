@@ -1,0 +1,18 @@
+package aula16;
+
+public class Aula {
+	//atributo estatico
+	static String nome = "Ana";
+	//atributo de estancia
+	String sobrenome = "Monteiro";
+	
+	void imprimi(){
+		System.out.println(nome+ " " +sobrenome);
+	}
+	
+	public static void main(String[] args) {
+	
+		System.out.println(nome +" "+ sobrenome);
+		
+	}
+}

@@ -1,0 +1,19 @@
+package Aula04;
+
+public class Aula 
+{
+	int x = 1;
+	String y = "Olá";
+	String z = "Mundo !";
+	
+	public static void main(String[] args)
+	{
+		Aula aula = new Aula();
+		int x2 = aula.x + 1;
+		
+		System.out.println("Valor de x = " + aula.x);
+		System.out.println("Valor de x2 = " + x2);
+		
+		System.out.println(aula.y +" "+ aula.z);
+	}
+}

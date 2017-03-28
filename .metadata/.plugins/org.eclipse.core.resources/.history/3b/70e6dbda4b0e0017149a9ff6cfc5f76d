@@ -1,0 +1,30 @@
+package Aula15;
+
+public class Pessoa {
+	
+	public Pessoa(){
+		
+		super();
+		
+		System.out.println("Pessoa");
+		
+	}
+	
+	public Pessoa(String nome){
+		super();
+		this.nome = nome;
+		System.out.println("Pessoa(String nome)");
+	}
+	
+	private String nome;
+	
+	public String getNome() {
+		return nome;
+	}
+
+	public void setNome(String nome) {
+		this.nome = nome;
+	}
+
+
+}

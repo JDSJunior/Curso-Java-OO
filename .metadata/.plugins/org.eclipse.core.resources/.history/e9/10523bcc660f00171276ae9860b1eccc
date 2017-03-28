@@ -1,0 +1,12 @@
+package aula16;
+
+public class Aula {
+	//atributo estatico
+	static String nome = "Ana";
+	//atributo de estancia
+	String Sobrenome = "Monteiro";
+	
+	public static void main(String[] args) {
+	
+	}
+}
