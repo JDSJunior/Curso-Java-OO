@@ -1,0 +1,55 @@
+package aula16;
+
+public class Aula {
+	//atributo estatico
+	static String nome = "Ana";
+	//atributo de estancia
+	String sobrenome = "Monteiro";
+	
+	void imprime(){
+		System.out.println(nome+ " " +sobrenome);
+	}
+	
+	static void show(){
+		System.out.println(nome+" "+new Aula().sobrenome);
+	}
+	
+	public static void main(String[] args) {
+		
+		//dentro de um metodo de estatico so temos acessos
+		//a membros estaticos os de instancia é nescessario instacia-los
+		//em uma variavel
+		//System.out.println(nome +" "+ sobrenome);
+		
+		//instancia direta
+		//new Aula().imprime();
+		
+		//System.out.println(nome+" "+ new Aula().sobrenome );
+		
+		//como show é estatico temos acesso direto a ele
+		//no metodo void que tem é estatico
+		//show();
+		
+		//MyClass my = new MyClass();
+		//my.imprime();
+		
+		Aula a1 = new Aula();
+		a1.sobrenome = "Da Silva";
+		
+		Aula a2 = new Aula();
+		a2.sobrenome = "Moura";
+		
+		Aula a3 = new Aula();
+		a3.sobrenome = "Neumann";
+		
+		//membros estaticos funcionanm com variaveis globais
+		//onde quando modifica
+		//altera em todas as instancias
+		Aula.nome = "Dariana";
+		
+		System.out.println(nome+" "+ a1.sobrenome );
+		System.out.println(nome+" "+ a2.sobrenome );
+		System.out.println(nome+" "+ a3.sobrenome );
+		
+	}
+}
